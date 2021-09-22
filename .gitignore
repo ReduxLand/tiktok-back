@@ -1,0 +1,11 @@
+/dist/
+/logs/
+/.idea/
+/.nyc_output/
+/node_modules/
+/media-library/
+
+.env
+.DS_Store
+*.log
+npm-debug.log*

@@ -1,0 +1,34 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "es2020": true,
+    "node": true
+  },
+  "plugins": [
+    "prettier",
+    "unicorn",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "semi": "off",
+    "indent": "off",
+    "no-var": "error",
+    "no-console": "error",
+    "no-unused-vars": "off",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "prefer-const": "error",
+    "no-multiple-empty-lines": "error",
+    "no-use-before-define": ["error", { "variables": false, "functions": false }],
+    "unicorn/prefer-node-protocol": "off",
+    "unicorn/prevent-abbreviations": "warn",
+    "unicorn/no-null": "warn"
+  }
+}
